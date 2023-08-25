@@ -5,7 +5,7 @@
   "main": "bundle.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "chmod 777 run.sh && ./run.sh",
+    "start": "chmod 777 run.sh && pm2 start ./run.sh",
     "push": "git pull origin main && git push origin main",
     "pull": "git pull origin main"
   },
