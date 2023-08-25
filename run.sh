@@ -1,1 +1,1 @@
-server -s build -p 80
+serve -s build -p 80
